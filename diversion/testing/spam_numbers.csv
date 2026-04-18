@@ -1,0 +1,5 @@
+number,label,reason,date_added
++919000000001,SPAM,Fake bank KYC scam,2026-01-01
++919000000002,SPAM,Fake police arrest scam,2026-01-05
++918800000001,SPAM,OTP phishing,2026-01-10
++911800000001,SPAM,Fake customer care,2026-01-15

@@ -85,18 +85,20 @@ class RepetitionDetector:
         
         masked_sim = sim_matrix * mask
         
-        # Simple metric: Mean of top 5% similarity values
-        # logic: if there are repeated phrases, we will see high off-diagonal blocks.
+        # Threshold-based metric: Calculate ratio of high similarity frames
+        # Random noise usually has low cosine similarity, repeated patterns have > 0.75
         if n == 0: return 0.0
         
-        top_k = int(n * n * 0.05)
-        if top_k == 0: top_k = 1
+        threshold = 0.85
+        high_sim_count = np.sum(masked_sim > threshold)
         
-        flat = np.abs(masked_sim.flatten())
-        top_values = np.partition(flat, -top_k)[-top_k:]
+        # Calculate ratio and scale it (max 1.0)
+        # We expect a few repetitions to trigger this, e.g., 2% of the matrix being highly similar 
+        # is a strong indicator of repeated phrases
+        repetition_score = (high_sim_count / (n * n)) * 20.0  # Scale up
+        repetition_score = min(1.0, float(repetition_score))
         
-        repetition_score = np.mean(top_values)
-        return float(repetition_score)
+        return repetition_score
 
 import numpy as np
 

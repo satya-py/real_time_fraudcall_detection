@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.scamcall.detection.app-mergeDebugResources-54:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\satya\\.gradle\\caches\\transforms-3\\faa69bdcbf11c3a653453e2f584b1ff2\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

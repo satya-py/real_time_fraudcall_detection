@@ -60,7 +60,6 @@ def process_dataset(input_root, output_root):
                 convert_with_vlc(file, output_wav)
 
 if __name__ == "__main__":
-    INPUT_DATASET = r"D:\d_drive_project\Realtime_fraud_call_detection\dataset"
-    OUTPUT_DATASET = r"D:\d_drive_project\Realtime_fraud_call_detection\processed_dataset"
-
-    process_dataset(INPUT_DATASET, OUTPUT_DATASET)
+    input_dataset="D:\\d_drive_project\\Realtime_fraud_call_detection\\wake_words\\wake_words"
+    output_dataset="D:\\d_drive_project\\Realtime_fraud_call_detection\\processed_dataset"
+    process_dataset(input_dataset, output_dataset)

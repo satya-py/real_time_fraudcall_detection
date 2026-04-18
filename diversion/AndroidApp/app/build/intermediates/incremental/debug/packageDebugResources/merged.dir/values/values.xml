@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="high_risk_red">#F44336</color>
+    <color name="low_risk_yellow">#FFEB3B</color>
+    <color name="mod_risk_orange">#FF9800</color>
+    <color name="safe_green">#4CAF50</color>
+    <color name="scam_alert">#E91E63</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Scam Call Detector</string>
+    <string name="btn_start">Start Monitoring Call</string>
+    <string name="btn_stop">Stop Monitoring</string>
+    <string name="risk_safe">✅ SAFE</string>
+    <string name="status_disconnected">Status: Ready</string>
+</resources>

@@ -1,0 +1,12 @@
+{
+  "sequence_length": 301,
+  "feature_dim": 39,
+  "n_mfcc": 13,
+  "n_fft": 512,
+  "hop_length": 160,
+  "n_mels": 26,
+  "sample_rate": 16000,
+  "chunk_duration": 3.0,
+  "scam_threshold": 0.75,
+  "suspicious_threshold": 0.4
+}

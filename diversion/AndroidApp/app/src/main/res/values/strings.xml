@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Scam Call Detector</string>
+    <string name="btn_start">Start Monitoring Call</string>
+    <string name="btn_stop">Stop Monitoring</string>
+    <string name="status_disconnected">Status: Ready</string>
+    <string name="risk_safe">✅ SAFE</string>
+</resources>

@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color high_risk_red
+color low_risk_yellow
+color mod_risk_orange
+color safe_green
+color scam_alert
+color white
+id btnStartStop
+id tvRiskScore
+id tvStatus
+id tvTitle
+layout activity_main
+string app_name
+string btn_start
+string btn_stop
+string risk_safe
+string status_disconnected

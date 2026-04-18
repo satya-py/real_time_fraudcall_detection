@@ -1,3 +1,6 @@
 .github
 dataset/
 processed_dataset/
+wake_words/
+__pycache__/
+*.pyc

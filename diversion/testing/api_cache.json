@@ -1,0 +1,68 @@
+{
+  "+919876543210": {
+    "found": true,
+    "label": "SAFE",
+    "reason": "Valid mobile | Risk: low | Carrier: Airtel | Country: India",
+    "source": "abstractapi",
+    "carrier": "Airtel",
+    "country": "India",
+    "line_type": "mobile",
+    "risk_level": "low",
+    "cached_on": "2026-03-01"
+  },
+  "+123456789": {
+    "found": true,
+    "label": "INVALID",
+    "reason": "Not a valid phone number",
+    "source": "abstractapi",
+    "carrier": null,
+    "country": null,
+    "line_type": null,
+    "risk_level": null,
+    "cached_on": "2026-03-01"
+  },
+  "+918017054970": {
+    "found": true,
+    "label": "SAFE",
+    "reason": "Valid mobile | Risk: low | Carrier: Vodafone | Country: India",
+    "source": "abstractapi",
+    "carrier": "Vodafone",
+    "country": "India",
+    "line_type": "mobile",
+    "risk_level": "low",
+    "cached_on": "2026-03-01"
+  },
+  "+918100283752": {
+    "found": true,
+    "label": "SAFE",
+    "reason": "Valid mobile | Risk: low | Carrier: Reliance Jio | Country: India",
+    "source": "abstractapi",
+    "carrier": "Reliance Jio",
+    "country": "India",
+    "line_type": "mobile",
+    "risk_level": "low",
+    "cached_on": "2026-03-01"
+  },
+  "+917001831229": {
+    "found": true,
+    "label": "SAFE",
+    "reason": "Valid mobile | Risk: low | Carrier: Reliance Jio | Country: India",
+    "source": "abstractapi",
+    "carrier": "Reliance Jio",
+    "country": "India",
+    "line_type": "mobile",
+    "risk_level": "low",
+    "cached_on": "2026-03-01"
+  },
+  "+3340025000": {
+    "found": true,
+    "label": "INVALID",
+    "reason": "Not a valid phone number",
+    "source": "abstractapi",
+    "carrier": null,
+    "country": null,
+    "line_type": null,
+    "risk_level": null,
+    "cached_on": "2026-03-01"
+  }
+}
